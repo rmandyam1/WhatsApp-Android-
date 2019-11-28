@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         if (isLogin) {
             isLogin = false;
             goButton.setText("SIGN UP");
-            insteadTextView.setText("login instead");
+            insteadTextView.setText("login instead please");
         } else {
             isLogin = true;
             goButton.setText("LOGIN");
